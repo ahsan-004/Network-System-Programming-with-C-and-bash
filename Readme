@@ -3,7 +3,7 @@ Run the following commands
 make 
 make install 
 
-There are some folders in htis source code which should be presebt with the same names. Following is the brief description of all folders
+There are some folders in this source code which should be present with the same names. Following is the brief description of all folders
 login: this folder only one file loged_in.txt which contain the information of all loged in users
 inbox: contain BBS account of all users
 log: contain log of all users.
