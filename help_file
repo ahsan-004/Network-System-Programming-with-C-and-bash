@@ -1,0 +1,36 @@
+*******************************************************************
+			      HIMC Help                            
+*******************************************************************
+Welcome to Hybrid Instant messenger Help Topics
+
+/clear                                   To clear the screen
+/register <username> <Password>          For Registration of user 
+/login <username> <Password>             For Sign in
+/channel <channel_name>                  For creating or moving to any other room
+/quitchannel                             To exit from room
+/rooms					 To show all rooms
+/list					 Get the list of all logged in users
+/dc <username>                           To create Direct session with user
+/dcchat <message>                        To send message to peer after creating direct session
+/kick <user>                             To kick any user if you are admin of room
+/aadmin <user>                           To make user admin of server (require Admin rights)
+/radmin <user>                           To remove admin rights of any user(require Admin rights)
+/banip <IP adress>                       To ban any IP adress (require Admin rights)
+/banuser <username>                      To ban any user (require Admin rights)   
+/msg <message>                           To send Message to all users of current room
+/bbs send <username> <message>           To send message to user (BBS)
+/bbs send all <message>                  To send message to all users (BBS)
+/bbs read <message number>               To view message number
+/bbs list 				 To view all the messages
+/bbs delete <message number>             To delete any message
+/logout                                  To logout from server
+/reboot 				 To reboot the server machine  
+
+NOTE:All the commands should start with "/".
+     Words in any command should be separated with single space.
+     Do Not press space at the end of input.
+     Try to use some special charachter in password and avoid special charachter in username	
+
+********************************************************************
+                             End Of Help 
+********************************************************************

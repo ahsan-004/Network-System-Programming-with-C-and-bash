@@ -1,0 +1,21 @@
+Copy the source code in /usr/src/project (this path is required in case you want to start the server at boot time)
+Run the following commands
+make 
+make install 
+
+There are some folders in htis source code which should be presebt with the same names. Following is the brief description of all folders
+login: this folder only one file loged_in.txt which contain the information of all loged in users
+inbox: contain BBS account of all users
+log: contain log of all users.
+trash: trash files are placed here which are deleted at runtime, but folder should stay here
+rooms: contain all rooms files, which are deleted at runtime when room gets empty.
+
+
+Following Files are placed in main dirctory
+banip.txt: contain all banned IP's.
+admin.txt: contain info of all admin users.
+banuser.txt: contain all banned users.
+client.config:configuration file for client (Do not change the sequence of all parameters).
+server.config:configuration file for server (Do not change the sequence of all parameters).
+info-file.txt: contain info for Direct chat.
+udp_connected.txt: contain info of UDP sockets of all users.
